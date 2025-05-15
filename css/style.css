@@ -93,13 +93,53 @@
     .display-spot {
         height: 100%;
         width: calc(100% - 250px);
+        overflow-y: hidden;
+        overflow: scroll;
 
         .nav {
             width: 100%;
             height: 60px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
         }
+
+        .list-display ul {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            background-color: beige;
+        }
+
     }
+
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -1px;
+    gap: 20px;
+}
+
+.col {
+
+    width: calc(100% / 6 - 20px);
+    background-color: beige;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+
 
 .bottom {
     height: 70px;
@@ -127,16 +167,8 @@
 
 .botton {
     border: 1px;
-    display: flex;
-    align-items: flex-end;
     width: 90px;
     height: 50px;
-    align-content: flex-start;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    position: absolute;
-    left: 85%;
-    top: 5px;
     margin-right: 20px;
 }
 
@@ -148,7 +180,6 @@
         .menu {
             height: 100%;
             width: 50px;
-
         }
     }
 
