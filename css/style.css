@@ -14,6 +14,13 @@ strong {
     display: block;
 }
 
+hr {
+    width: 60%;
+    border: solid 1px #8cce2c;
+    margin: 4px auto;
+}
+
+
 .deug {
 
     .wrapper {
@@ -87,16 +94,12 @@ strong {
 
         .menu-logo {
             height: 60px;
-            display: flex;
-        }
-
-        .menu-logo img {
-            align-items: center;
         }
 
         .menu-section {
             height: 90%;
             margin: 0 auto;
+            color: white;
 
         }
 
@@ -180,12 +183,14 @@ h3 {
 
 .bottom {
     height: 70px;
+    background-color: #282828;
+    display: flex;
+
 }
 
 .list-1 {
     padding: 3px;
     display: flex;
-
 }
 
 .list-1 img {
@@ -206,12 +211,29 @@ h3 {
 
 .square {
     height: 30px;
-    margin: 5px 0px
+    margin: 5px 0px;
+
 }
 
 .playlist {
     height: 20px;
     margin: 5px 0px;
+    padding-left: 10px;
+    font-size: larger;
+}
+
+.sec-p {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+.cube {
+    width: 40px;
+    height: 40px;
+    background-color: #7b7d82;
 }
 
 
@@ -230,6 +252,18 @@ h3 {
 
 .botton h3 {
     margin: 0px;
+}
+
+
+.logo {
+    display: none;
+    width: 60%;
+    height: 0%;
+}
+
+.logo-small {
+    display: block;
+    padding-top: 5px;
 }
 
 
@@ -259,12 +293,6 @@ h3 {
 
     }
 
-    .col-list {
-
-        width: calc(100% / 4 - 20px);
-
-    }
-
     .section-menu1 {
         display: none;
     }
@@ -276,22 +304,47 @@ h3 {
 
 }
 
+
+
+
+
 @media screen and (min-width: 639px) {
 
     .list-1 li img {
         width: 30px;
         height: 30px;
+        margin-left: 10px;
+    }
+
+    .list-1 {
+        margin: 20px 0px;
+        border: 0px;
+        color: white;
+    }
+
+
+    .logo {
+        display: block;
+        margin: auto 20px;
+    }
+
+    .logo-small img {
+        display: none;
+
+    }
+
+    .section-menu1 {
+        display: block;
+    }
+
+    .list-2 span {
+        display: block;
+        color: white;
     }
 
 }
 
 @media screen and (min-width: 480px) {
-
-    .col-list {
-
-        width: calc(100% / 3 - 20px);
-
-    }
 
     .col {
 
@@ -304,13 +357,12 @@ h3 {
 
 }
 
+
+
+
+
+
 @media screen and (min-width: 878px) {
-
-    .col-list {
-
-        width: calc(100% / 5 - 20px);
-
-    }
 
     .col {
 
@@ -322,13 +374,6 @@ h3 {
 }
 
 @media screen and (min-width: 1440px) {
-
-    .col-list {
-
-        width: calc(100% / 6 - 20px);
-
-    }
-
 
     .col {
 
