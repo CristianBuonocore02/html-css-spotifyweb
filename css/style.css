@@ -103,7 +103,7 @@ hr {
         }
 
         .menu-section {
-            height: 80%;
+            height: 84%;
             margin: 0 auto;
             color: white;
 
@@ -258,11 +258,13 @@ h3 {
     padding: 3px;
     color: #7b7d82;
     display: flex;
+    overflow: hidden;
 }
 
 .list-1-profile img {
     width: 35px;
     height: 35px;
+    vertical-align: middle;
 }
 
 
@@ -283,6 +285,8 @@ h3 {
     vertical-align: middle;
 
 }
+
+
 
 
 .list-2 {
