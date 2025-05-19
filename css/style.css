@@ -20,6 +20,12 @@ hr {
     margin: 4px auto;
 }
 
+.hr2 {
+    width: 150%;
+    border: solid 1px #7b7d82;
+    margin: 8px auto;
+}
+
 
 .deug {
 
@@ -97,7 +103,7 @@ hr {
         }
 
         .menu-section {
-            height: 90%;
+            height: 80%;
             margin: 0 auto;
             color: white;
 
@@ -105,6 +111,18 @@ hr {
 
 
     }
+
+    .profile-utante {
+        margin-top: 10px;
+    }
+
+    .profile-utante img {
+        background-color: #7b7d82;
+        padding: 2px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+
 
     .display-spot {
         height: 100%;
@@ -236,6 +254,18 @@ h3 {
     display: flex;
 }
 
+.list-1-profile {
+    padding: 3px;
+    color: #7b7d82;
+    display: flex;
+}
+
+.list-1-profile img {
+    width: 35px;
+    height: 35px;
+}
+
+
 .list-1 img {
     width: 100%;
     vertical-align: middle;
@@ -244,6 +274,7 @@ h3 {
 .flex-list1 li {
     align-items: center;
     list-style: none;
+    vertical-align: middle;
 
 }
 
@@ -355,6 +386,15 @@ h3 {
     .list-1 span {
         display: none;
     }
+
+    .list-1-profile span {
+        display: none;
+    }
+
+    .hr2 {
+        display: none;
+    }
+
 
 
 }
