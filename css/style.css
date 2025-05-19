@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px dashed black;
+    ⁄;
     font-family: sans-serif;
 }
 
@@ -103,7 +103,7 @@ hr {
         }
 
         .menu-section {
-            height: 84%;
+            height: 78%;
             margin: 0 auto;
             color: white;
 
@@ -248,8 +248,99 @@ h3 {
 
 }
 
+.section-1-bottom {
+    width: 30%;
+    height: 70px;
+
+}
+
+.section-2-bottom {
+    width: 40%;
+    height: 70px;
+
+}
+
+.buttons-sp ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 8px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.play {
+    font-size: 15px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    padding-left: 7px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.line-play {
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    color: white;
+    font-size: small;
+    align-items: center;
+}
+
+.slide {
+    height: 6px;
+    background-color: #595959;
+    border-radius: 20px;
+    margin: 5px 30px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.slide-in {
+    height: 6px;
+    background-color: #c2c2c2;
+    width: 45%;
+    padding-top: 1px;
+}
+
+.section-3-bottom {
+    width: 30%;
+    height: 70px;
+}
+
+.section-3-bottom ul {
+    display: flex;
+    gap: 10px;
+}
+
+.section-3-bottom ul li {
+    list-style: none;
+
+}
+
+.buttons-sp2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.slide2 {
+    height: 6px;
+    background-color: #595959;
+    border-radius: 20px;
+    margin: 5px 30px;
+    text-align: center;
+    width: 30%;
+
+}
+
 .list-1 {
-    padding: 3px;
+    padding: 5px;
+    margin-right: 2px;
     color: #7b7d82;
     display: flex;
 }
@@ -318,6 +409,22 @@ h3 {
     align-items: center;
     margin: 10px;
     gap: 10px;
+}
+
+
+.sec-p2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+.sec-p2 img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin-left: 10p;
 }
 
 .cube {
